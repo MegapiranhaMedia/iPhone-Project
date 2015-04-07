@@ -1,0 +1,537 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Begin Apple CSS */
+
+body {
+    font-family: "roboto";
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3.0em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2.0em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
+
+.main {
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/hero_large.jpg");
+    height: 678px;
+    width: 1280px;
+    margin: 0 auto;
+    z-index: 0;
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.appleLogo {
+    margin: 200px 0 0 -30px;
+    display: inline-block;
+    padding-left: 0.3em;
+    font-size: 500%;
+}
+/* Shot on iPhone 6 */
+
+.heading a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading a:hover {
+    color: #08c;
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+}
+/* Main Navigation */
+
+.navBar {
+    top: 2.5em;
+    height: 2.5em;
+    background: #444;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+nav {
+    font-size: .9em;
+    width: 1200px;
+    padding-top: 2.5em 0;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+}
+/* Sub Navigation */
+
+.subNav {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 135px;
+}
+
+.subNav ul {
+    display: inline-block;
+    width: 1000px;
+    text-align: center;
+}
+
+.subNav img {
+    display: block;
+}
+
+.subNav a {
+    color: rgba(0, 0, 0, .6);
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.subNav a:hover {
+    color: rgb(51, 51, 51);
+}
+/* Three mid-page promos section */
+
+.promos {
+    width: 1280px;
+    margin: 2px auto;
+}
+
+.promos div {
+    background-position: center center;
+    width: 423px;
+    height: 280px;
+    display: inline-block;
+}
+
+.researchKit {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_researchkit_large.jpg");
+}
+
+.iOs {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_upgrade_large.jpg");
+}
+
+.applePay {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_applepay_large.jpg");
+}
+/* Apple Care and Business sections 8*/
+
+.appleCare {
+    height: 463px;
+    width: 318px;
+    margin: 30px 156.75px 0px 156.75px;
+    display: inline-block;
+    background: url(http://images.apple.com/iphone/home/images/promos/promo_support_large.jpg) no-repeat bottom center;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.acHeader {
+    margin: 0px 0px 10px 0px;
+}
+
+.insideApple {
+    color: black;
+    text-align: center;
+    line-height: 1.45;
+}
+
+.insideApple a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.insideApple a:hover {
+    text-decoration: underline;
+}
+
+.business {
+    height: 463px;
+    width: 318px;
+    margin: 30px 156.75px 0px 156.75px;
+    display: inline-block;
+    background: url(http://images.apple.com/iphone/home/images/promos/promo_iphone_business_large.png) no-repeat bottom center;
+    vertical-align: top;
+}
+
+.busHeader {
+    margin: 0px 0px 10px 0px;
+}
+
+.insideBus {
+    color: black;
+    text-align: center;
+    line-height: 1.45;
+}
+
+.insideBus a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.insideBus a:hover {
+    text-decoration: underline;
+}
+/* Wrapper for AppleCare and Business sections */
+
+.whiteBackground {
+    background-color: white;
+    width: 1280px;
+}
+/* Footer section */
+
+.footer {
+    background-color: #f2f2f2;
+    width: 1280px;
+    height: 700px;
+    padding: 60px 0px;
+}
+
+.allFooter {
+    display: inline-block;
+    margin: 0 auto;
+    width: 1280px;
+    text-align: center;
+}
+
+.twoPhone {
+    background-image: url(http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_hero_large.png);
+    height: 225px;
+    width: 209px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.iphone6 {
+    display: inline-block;
+    width: 191px;
+    height: 220px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 2.0em;
+    padding-left: 20px;
+}
+
+.iphone6 a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.iphone6 a:hover {
+    text-decoration: underline;
+}
+/* Last 4 buying option sections */
+
+.shopWrapper {
+    display: block;
+    vertical-align: top;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shopWrapper div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 225px;
+    line-height: 1.5em;
+    margin: 10px;
+}
+
+.shopWrapper a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.shopWrapper a:hover {
+    text-decoration: underline;
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+}
+/* bottom section with 4 lists */
+
+.bottom {
+    height: 346px;
+    width: 1280px;
+    background-color: #f2f2f2;
+}
+
+.bottomWrapper {
+    width: 1000px;
+    height: 275px;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+
+.bottom ul {
+    display: inline-block;
+    width: 245px;
+    height: 300px;
+    vertical-align: top;
+}
+
+.bottom li:first-of-type {
+    font-weight: 400
+}
+
+.bottom ul:nth-of-type(2) li:nth-of-type(4) {
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.bottom li {
+    text-align: left;
+    color: black;
+    height: 19px;
+    width: 245px;
+    line-height: 19px;
+    font-size: .75em;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.bottom a {
+    text-align: left;
+    color: black;
+    height: 19px;
+    width: 245px;
+    line-height: 19px;
+    font-size: 1em;
+    vertical-align: top;
+    margin: 0px;
+}
+/* Responsive CSS */
+
+@media all and (max-width: 1000px) and (min-width: 300px) {
+    .main {
+        width: 100%;
+    }
+    .subNav {
+        width: 100%;
+    }
+    .subNav ul {
+        width: 600px;
+    }
+    .subNav li {
+        margin: 0px;
+    }
+    li a {
+        margin: 0px 3px;
+    }
+    nav ul {
+        width: 700px;
+    }
+    nav li {
+        margin: 10px 2px;
+        padding: 1px 2px;
+    }
+    .navBar {
+        width: 100%;
+    }
+    .promos div {
+        width: 300px;
+    }
+    @media all and (max-width: 500px) and (min-width: 300px) {
+        nav ul {
+            width: 300px;
+            margin-left: 60px;
+            margin-right: 10px;
+        }
+        nav li {
+            margin: 3px 5px;
+            padding: 1px 2px;
+        }
+        .navBar {
+            width: 100%;
+            height: 75px;
+        }
+        .subNav {
+            height: 230px;
+            padding: 0px 0px 5px 0px;
+        }
+        .subNav ul {
+            width: 300px;
+        }
+        .subNav li {
+            height: 116px;
+            margin: 0px 5px;
+        }
+        .promos {
+            display: block;
+            width: 300px;
+        }
+    }
